@@ -25,8 +25,5 @@ public class TalkablePerson {
     public void talk(){
         System.out.printf("Hello my name is %s. \n", this.name);
     }
-
-
-
     
 }
