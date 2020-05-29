@@ -8,7 +8,15 @@ package com.mycompany.main;
 public class Application {
 
     public static void main(String[] args) {
+        
         System.out.println(StaticClass.sumFloat(12.5f, 7.54f));
+
+        FinalClass f = new FinalClass();
+        System.out.println(f.myConstant);
+
+        ConcreteClass c = new ConcreteClass();
+        c.run();
+
     }
     
 }
